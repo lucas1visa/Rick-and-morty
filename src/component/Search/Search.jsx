@@ -1,9 +1,14 @@
 import styles from './Search.module.css'
-const Search = () =>{
+import { useState } from 'react'
+const Search = (props) =>{
+    const [id, setId] = useState('');
+    const handleChange = (event)=>{
+        setId(event.target.value);
+    }
     return (
         <div className={styles.containerSearch}>
-            <input type="text" placeholder="Card por ID" />
-            <button>Agregar</button>
+            <input onChange={handleChange}type="text" placeholder="Card por ID" />
+            <button onClick={()=>{props.onSearch(id)}}>Agregar</button>
         </div>
     )
 }

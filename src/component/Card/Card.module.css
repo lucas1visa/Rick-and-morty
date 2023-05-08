@@ -1,0 +1,8 @@
+.containerCard{
+    background-color: blue;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}
