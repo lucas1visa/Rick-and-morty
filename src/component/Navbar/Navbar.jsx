@@ -1,7 +1,6 @@
 import styles from "./Navbar.module.css";
 import Search from "../Search/Search";
 import {NavLink, useNavigate} from 'react-router-dom'
-
 const Navbar = (props) => {
   const navigate = useNavigate();
   const handlelogout=()=>{
@@ -10,6 +9,10 @@ const Navbar = (props) => {
   }
   return <div className={styles.containerNav}>
     <button onClick={handlelogout}>Log Out</button>
+    <NavLink to='/favorites'>
+    <button>Favorites</button>
+    </NavLink>
+
     <NavLink to='/about'>
     <button>About</button>
     </NavLink>

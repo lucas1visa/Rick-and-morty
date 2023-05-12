@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Vina+Sans&display=swap');
 body{
-    background-image: url('https://images5.alphacoders.com/876/876590.png');
+background-image: url('https://images5.alphacoders.com/876/876590.png');
 }
 .loginbox {
     position: absolute;
@@ -81,7 +81,10 @@ body{
                 0 0 50px #00e1ff,
                 0 0 100px #03e9f4;
   }
-
+  .loginbox .userbox p{
+    color: rgb(255, 0, 0);
+    font-family: 'Bruno Ace SC', cursive;
+  }
 
   
 

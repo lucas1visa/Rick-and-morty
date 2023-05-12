@@ -165,4 +165,66 @@ console.log(store.getState());
 //             <input type="text" onChange={pa}/>
 //         </div>
 //     )
+// } 
+//
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+//------------------------------------REACT REDUX-------------------------------------//
+//Carpeta Store
+//
+//
+//import {createStore} from 'redux';
+//import reducer from './reducer'
+// const store = createStore(reducer)
+//
+//
+//
+//
+// 
+// 
+// 
+///
+//Carpeta Reducer
+//
+//
+//const initialState = {
+ // count:0,
+  // users:[],
+  //user{}
+//}
+
+// const reducer=(state = initialState, action)=>{
+  //  switch(action.type){
+    // case "ADD_USER:
+    //return{
+      // ...state,
+      // count:state.count + 1
+    // }
+    // case "ADD_USERS:
+    // return{
+      // ...state,
+      // users:[...state.users,action.payload]
+    //  }
+    //  return state
+//
 // }
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// Carpeta Action
+//
+
+
